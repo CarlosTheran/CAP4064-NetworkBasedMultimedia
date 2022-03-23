@@ -1,5 +1,17 @@
+/*
+Author: Carlos Theran
+Date: mar 22 2022
+File name: style.css
+*/
+
+body, header, nav, main, footer, h1, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body{
-    background-color: #ccc;
+    background-color: #000;
 }
 
 header{
@@ -22,6 +34,8 @@ nav ul{
 nav li{
     display: inline-block;
     font-size: 1.75em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
 }
 
 nav li a{
@@ -34,4 +48,72 @@ nav li a{
 
 main{
     clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+footer p{
+    font-size: 01.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact a{
+    color: #666600;
+    text-decoration: none;
+}
+
+#weights, #cardio, #training{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercises{
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt{
+    font-weight: bold;
+}
+
+#exercises dd{
+    font-weight: bold;
+    padding: 0.5% 1% 2% 0;
+}
+
+.action{
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.external-link{
+    color:#666600;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.map{
+    border: 8px solid #000;
 }
